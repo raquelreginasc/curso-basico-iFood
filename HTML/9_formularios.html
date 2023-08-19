@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <head></head>
+
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+
+        <form action="" method="get"> <!-- estudar o método pois é sobre http-->
+            <div>
+                <label for="texto">Input de texto:</label>
+                <input type="text" id="texto" placeholder="Informe o seu nome..." >
+            </div>
+            <br>
+            <div>
+                <label for="texto">Input de texto:</label>
+                <input type="text" id="texto" value="Raquel" >
+            </div>
+            <br>
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" name="Nome" >
+            </div>
+
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" >
+            </div>
+
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            </div>
+
+            <br>
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data" >
+            </div>
+
+            <br>
+            <div>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" >
+            </div>
+
+            <br>
+            <div>
+                <label for="sorte">Número da sorte:</label>
+                <input type="number" id="sorte" name="sorte" >
+            </div>
+
+            <br>
+            <div>
+                <label for="arquivo">Carregue seu arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo" >
+            </div>
+
+            <br>
+            <div>
+                <label for="url">Link do seu LinkedIn:</label>
+                <input type="url" id="url" name="url" >
+            </div>
+
+            <br>
+            <div>
+                <label for="cor">Sua cor favorita:</label>
+                <input type="color" id="cor" name="cor" >
+            </div>
+
+            <br>
+            <div>
+                <label for="range">O quanto você está animado hoje?</label>
+                <input type="range" id="range" name="range" >
+            </div>
+
+            
+            <br>
+            <div>
+                <label for="checkbox">Selecione a opção: </label>
+                <input type="checkbox" id="checkbox" name="checkbox" > <!-- atributo checked já deixa a opção selecionada-->
+            </div>
+
+            
+            <br>
+            <div>
+                <label for="radio">Selecione a única opção:</label>
+                <input type="radio" id="radio" name="radio" >
+            </div>
+
+            
+            <br>
+            <div>
+                <!-- <label for="reset"></label> -->
+                <input type="reset" id="reset" name="reset" value="Limpar formulário">
+            </div>
+            
+            <br>
+            <div>
+                <!-- <label for="enviar"></label> -->
+                <input type="submit" id="enviar" name="enviar" value="Enviar" >
+            </div>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                </select>
+            </div>
+            
+        </form>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
